@@ -1,0 +1,68 @@
+## Demo 运行
+ /media/zgq/data/code/github.com/stress-test/gatling-charts-highcharts-bundle-3.3.1/bin
+/media/zgq/data/code/github.com/stress-test/gatling-api-test/gradle/gradle-6.2.2
+
+环境变量配置  java1.8 scala2.12
+#gatling部署 配置环境变量
+/media/zgq/data/code/github.com/stress-test/gatling-charts-highcharts-bundle-3.3.1/bin
+./bin/gatling.sh
+选0 连选择两次ls
+
+/media/zgq/data/code/github.com/stress-test/gatling-maven-plugin-demo/src/test/scala/Engine.scala
+
+生成的报告
+file:///media/zgq/data/code/github.com/stress-test/gatling-charts-highcharts-bundle-3.3.1/results/basicsimulation-20201027093158393/index.html
+/media/zgq/data/code/github.com/stress-test/gatling-charts-highcharts-bundle-3.3.1/results/basicsimulation-20201109083419214/index.html
+#录制
+./recorder.sh
+
+
+
+
+#性能测试报告
+https://www.cnblogs.com/clockq/p/10539974.html
+
+https://testerhome.com/articles/16529
+
+
+https://stackoverflow.com/questions/58234290/gatling-with-gitlab-ci-cd
+
+
+参考工程
+https://github.com/zgq346712481/pharbers-modules
+
+项目目录说明：
+
+bodies：用来存放请求的body数据
+
+data：存放需要输入的数据
+
+scala：存放Simulation脚本
+
+Engine：右键运行跟运行 bin\gatling.bat 和bin\gatling.sh效果一致
+
+Recorder：右键运行跟运行 bin\recorder.bat 和bin\recorder.sh效果一致，录制的脚本存放在scala目录下
+
+target：存放运行后的报告
+
+至此就可以使用IntelliJ愉快的开发啦。
+
+# 利用Gatling进行数据库接口性能测试
+
+#Scalatest Maven 单元测试配置（测试报告和覆盖率报告）
+
+https://www.yuque.com/kunkun-nvtmq/hy2yba/fg6ikv
+
+Scala Scalatest Maven 集成测试配置
+
+#https://github.com/zgq346712481/gatling-docker-test
+
+
+#hey压测工具
+https://www.cnblogs.com/wintersun/p/12492096.html
+
+https://github.com/niaoshuai/stress-test
+
+
+Scala使用JUnit4/TestNG单元测试
+
